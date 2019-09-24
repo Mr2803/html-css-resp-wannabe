@@ -105,6 +105,7 @@ img{
     display:inline-block;
     border:1px solid white;
     padding: 5px;
+    width: auto;
   }
 
   /* |regole generali */
@@ -133,6 +134,8 @@ img{
   #steps img,
   #why img{
     margin-top: 2%;
+    width: 50%;
+    height: auto;
   }
   /* |regole generali div */
 
@@ -180,8 +183,13 @@ img{
     background: rgba(164, 109, 35,0.8);
   }
 
+  #why .row img{
+    padding:5%;
+  }
+
   #why{
     background: rgba(164, 109, 35,0.8);
+    margin-bottom: 1%;
   }
 
   #why div.row div.first,
