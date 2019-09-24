@@ -71,6 +71,7 @@ img{
   body{
     margin:0;
     width: 100%;
+    background:white;
   }
 
   .row{
@@ -87,13 +88,49 @@ img{
     width: 100%;
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
   #steps .row > .left, #steps .row > .central, #steps .row > .right {
     float:none;
     width: 100%;
+    /* margin-top: 50px; */
   }
 
-  /* .clear{
-    display:none;
-  } */
+  #lezioni div.left{
+    background:lightblue;
+    padding-top:10px;
+  }
+
+  #lezioni div.right{
+    background:rgba(18, 36, 200, 0.69)
+  }
+
+  #steps div.row div.left,
+  #steps div.row div.right{
+    background:rgba(93, 86, 62, 0.6);
+  }
+
+  #steps div.row div.central{
+  background:rgba(199, 146, 56, 0.56);
+  }
+
+
+  #why div.row div.first,
+  #why div.row div.second,
+  #why div.row div.third{
+    margin-top:0;
+  }
+
+
+  #why div.row div.first,
+  #why div.row div.third{
+    background:rgba(176, 113, 90, 0.65);
+  }
+
+  #why div.row div.second{
+    background:rgba(119, 62, 52, 0.7)
+  }
 
 }
