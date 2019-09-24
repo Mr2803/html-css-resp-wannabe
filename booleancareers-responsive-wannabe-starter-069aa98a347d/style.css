@@ -87,6 +87,11 @@ img{
     width: 100%;
   }
 
+  #steps .row > .left, #steps .row > .central, #steps .row > .right {
+    float:none;
+    width: 100%;
+  }
+
   /* .clear{
     display:none;
   } */
