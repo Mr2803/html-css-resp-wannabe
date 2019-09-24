@@ -101,19 +101,25 @@ img{
   }
 
   h1{
-    color:black;
+    color:white;
     text-transform:uppercase;
     border-radius: 10px;
     display:inline-block;
+    border:1px solid white;
+    padding: 5px;
   }
 
   #lezioni h1{
-    border:2px solid rgb(0, 156, 255);
+    background: rgb(0, 156, 255);
 
   }
 
   #steps h1{
-    border:2px solid rgb(73, 66, 48);
+    background: rgb(73, 66, 48);
+  }
+
+  #why h1{
+    background: rgb(164, 109, 35);
   }
 
   #lezioni .row > .left, #lezioni .row > .right,
