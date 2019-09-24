@@ -68,6 +68,7 @@ img{
 
 @media screen and (max-width:420px) {
 
+  /* regole generali */
   body{
     margin:0;
     width: 100%;
@@ -93,7 +94,7 @@ img{
 
   .row h3 {
     font-size: 1.4em;
-    margin-top: 5px;
+    margin-top: 1.5%;
     text-transform:uppercase;
   }
 
@@ -106,6 +107,9 @@ img{
     padding: 5px;
   }
 
+  /* |regole generali */
+
+  /* regole generali div */
   #lezioni,
   #steps,
   #why{
@@ -130,9 +134,9 @@ img{
   #why img{
     margin-top: 2%;
   }
+  /* |regole generali div */
 
-  /* row lezioni */
-
+  /* div lezioni */
   #lezioni h1{
     background: rgba(0, 156, 255, 0.8);
   }
@@ -148,9 +152,9 @@ img{
   #lezioni div.right{
     background:rgb(39, 108, 224);
   }
-  /* |row lezioni */
+  /* |div lezioni */
 
-  /* row steps */
+  /* div steps */
   #steps h1{
     background: rgba(73, 66, 48,0.8);
   }
@@ -169,10 +173,9 @@ img{
   margin-top:1%;
   margin-bottom: 1%;
   }
+  /* |div steps */
 
-  /* |row steps */
-
-  /* row why */
+  /* div why */
   #why h1{
     background: rgba(164, 109, 35,0.8);
   }
@@ -198,6 +201,6 @@ img{
     margin-top:1%;
     margin-bottom: 1%;
   }
-  /* |row why */
+  /* |div why */
 
 }
